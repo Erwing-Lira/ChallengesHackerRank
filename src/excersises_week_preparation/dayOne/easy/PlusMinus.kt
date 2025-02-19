@@ -20,14 +20,15 @@ package excersises_week_preparation.dayOne.easy
  * and 1/5 = 0.200000
  */
 
-fun plusMinus(arr: Array<Int>, size: Int): Unit {
+fun plusMinus(arr: Array<Int>): Unit {
     // Write your code here
     val options = arrayOf<Int>(0, 0, 0)
+    val size = arr.size
     for (number in arr) {
         when {
-            number in 1..100 -> options[0] = options[0] + 1
-            number in -100..-1 -> options[1] = options[1] + 1
-            else -> options[2] = options[2] + 1
+            number > 0 -> options[0]++
+            number < 0 -> options[1]++
+            else -> options[2]++
         }
     }
     printValues(options, size)
@@ -39,15 +40,14 @@ fun printValues(
     size: Int
 ) {
     for (number in options) {
-        val result = (number.toFloat()/size)
+        val result = number.toFloat()/size
         val formattedResult = String.format("%.6f", result)
         println(formattedResult)
     }
 }
 
 fun main(args: Array<String>) {
-    val n = 6
     val arr = arrayOf(-4, 3, -9, 0, 4, 1)
 
-    plusMinus(arr, n)
+    plusMinus(arr)
 }
