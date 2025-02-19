@@ -1,6 +1,7 @@
 package excersises_week_preparation.problem_solving.dataStructures.easy
 
 /**
+ * 4
  * In this challenge, you need to calculate and
  * print the sum of elements in an array, considering
  * that some integers may be very large.

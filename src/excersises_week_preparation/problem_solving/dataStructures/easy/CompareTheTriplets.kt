@@ -1,6 +1,7 @@
 package excersises_week_preparation.problem_solving.dataStructures.easy
 
 /**
+ * 3
  * Alice and Bob each created one problem for HackerRank.
  * A reviewer rates the two challenges, awarding points on
  * a scale from 1 to 100 for three categories: problem clarity,

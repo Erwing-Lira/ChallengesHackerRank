@@ -1,6 +1,7 @@
 package excersises_week_preparation.problem_solving.dataStructures.easy
 
 /**
+ * 1
  * Complete the function  to compute the sum of two integers.
  *
  * Example

@@ -1,6 +1,7 @@
 package excersises_week_preparation.problem_solving.dataStructures.easy
 
 /**
+ * 2
  * Given an array of integers, find the sum of its elements.
  *
  * For example, if the array ,
