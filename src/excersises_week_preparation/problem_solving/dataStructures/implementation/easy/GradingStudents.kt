@@ -1,7 +1,7 @@
 package excersises_week_preparation.problem_solving.dataStructures.implementation.easy
 
 /**
- * 7
+ * 1
  * HackerLand University has the following grading policy:
  *
  * Every student receives a grade in the inclusive range from 0 to 100.
