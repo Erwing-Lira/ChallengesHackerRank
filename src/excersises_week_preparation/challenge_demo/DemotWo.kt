@@ -1,4 +1,4 @@
-package excersises_week_preparation.demo
+package excersises_week_preparation.challenge_demo
 
 fun countGroups(related: Array<String>): Int {
     val relatedSize = related.size

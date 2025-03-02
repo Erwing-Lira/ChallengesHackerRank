@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.callable;
+package java.lambdasStreams.lambdas.callable;
 
 import java.util.concurrent.Callable;
 

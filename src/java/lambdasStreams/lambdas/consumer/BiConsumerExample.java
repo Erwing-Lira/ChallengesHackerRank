@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.consumer;
+package java.lambdasStreams.lambdas.consumer;
 
 import java.util.function.BiConsumer;
 

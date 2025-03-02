@@ -1,8 +1,7 @@
-package excersises_week_preparation.tuplas;
+package java.tuplas;
 
 import kotlin.Pair;
 import kotlin.Triple;
-import kotlin.TuplesKt;
 
 public class Task {
     // Pair -> return two values

@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.binary;
+package java.lambdasStreams.lambdas.binary;
 
 import java.util.function.BinaryOperator;
 

@@ -1,4 +1,4 @@
-package excersises_week_preparation.demo
+package excersises_week_preparation.challenge_demo
 
 fun processLogs(logs: Array<String>, threshold: Int): Array<String> {
     val userTransactionCount = mutableMapOf<String, Long>()

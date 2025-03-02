@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.function;
+package java.lambdasStreams.lambdas.function;
 
 import java.util.function.BiFunction;
 

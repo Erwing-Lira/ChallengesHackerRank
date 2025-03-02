@@ -1,4 +1,4 @@
-package excersises_week_preparation.demo
+package excersises_week_preparation.challenge_demo
 
 fun dfs(graph: Array<List<Int>>, node: Int, visited: BooleanArray) {
     // Marca el nodo actual como visitado

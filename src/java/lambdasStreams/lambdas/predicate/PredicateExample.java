@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.predicate;
+package java.lambdasStreams.lambdas.predicate;
 
 import java.util.function.Predicate;
 

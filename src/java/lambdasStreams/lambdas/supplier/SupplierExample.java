@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.supplier;
+package java.lambdasStreams.lambdas.supplier;
 
 import java.util.function.Supplier;
 

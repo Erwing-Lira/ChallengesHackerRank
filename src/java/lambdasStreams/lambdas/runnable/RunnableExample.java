@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.runnable;
+package java.lambdasStreams.lambdas.runnable;
 
 /**
  * Runnable

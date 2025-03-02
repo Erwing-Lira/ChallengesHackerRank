@@ -1,4 +1,4 @@
-package excersises_week_preparation.lambdasStreams.lambdas.unary;
+package java.lambdasStreams.lambdas.unary;
 
 import java.util.function.UnaryOperator;
 

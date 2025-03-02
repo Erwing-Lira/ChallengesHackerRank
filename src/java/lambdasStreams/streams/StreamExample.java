@@ -1,8 +1,7 @@
-package excersises_week_preparation.lambdasStreams.streams;
+package java.lambdasStreams.streams;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Stream
