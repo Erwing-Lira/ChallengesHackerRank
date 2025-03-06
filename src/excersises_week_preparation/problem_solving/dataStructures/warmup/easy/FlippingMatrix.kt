@@ -1,4 +1,4 @@
-package excersises_week_preparation.dayTwo.easy
+package excersises_week_preparation.problem_solving.dataStructures.warmup.easy
 
 /**
  * Sean invented a game involving a 2n x 2n matrix where each cell

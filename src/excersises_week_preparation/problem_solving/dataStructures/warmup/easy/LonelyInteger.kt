@@ -1,4 +1,4 @@
-package excersises_week_preparation.dayTwo.easy
+package excersises_week_preparation.problem_solving.dataStructures.warmup.easy
 
 /**
  * 1

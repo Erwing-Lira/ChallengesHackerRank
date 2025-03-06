@@ -1,4 +1,4 @@
-package excersises_week_preparation.dayOne.easy
+package excersises_week_preparation.problem_solving.dataStructures.warmup.easy
 
 import java.text.SimpleDateFormat
 import java.util.Locale
