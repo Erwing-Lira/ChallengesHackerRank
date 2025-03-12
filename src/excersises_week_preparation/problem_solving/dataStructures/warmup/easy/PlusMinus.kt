@@ -22,28 +22,23 @@ package excersises_week_preparation.problem_solving.dataStructures.warmup.easy
 
 fun plusMinus(arr: Array<Int>): Unit {
     // Write your code here
-    val options = arrayOf<Int>(0, 0, 0)
     val size = arr.size
-    for (number in arr) {
-        when {
-            number > 0 -> options[0]++
-            number < 0 -> options[1]++
-            else -> options[2]++
-        }
-    }
-    printValues(options, size)
-
+    val positiveValues = arr.count {
+        it > 0
+    }.toFloat()
+    printValue(size, positiveValues)
+    val negativeValues = arr.count {
+        it < 0
+    }.toFloat()
+    printValue(size, negativeValues)
+    val zeroValues: Float = arr.count {
+        it == 0
+    }.toFloat()
+    printValue(size, zeroValues)
 }
 
-fun printValues(
-    options: Array<Int>,
-    size: Int
-) {
-    for (number in options) {
-        val result = number.toFloat()/size
-        val formattedResult = String.format("%.6f", result)
-        println(formattedResult)
-    }
+private fun printValue(size: Int, value: Float) {
+    println(String.format("%.6f", value/size))
 }
 
 fun main(args: Array<String>) {
