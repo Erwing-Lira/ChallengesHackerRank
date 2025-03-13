@@ -27,8 +27,9 @@ package excersises_week_preparation.problem_solving.dataStructures.warmup.easy
 fun miniMaxSum(arr: Array<Int>): Unit {
     // Write your code here
     val sumList = mutableListOf<Long>()
+    val sum = arr.sumOf { it.toLong() }
     for (number in arr) {
-        sumList.add(arr.sumOf { it.toLong() } - number)
+        sumList.add(sum - number)
     }
     println("${sumList.min()} ${sumList.max()}")
 }
