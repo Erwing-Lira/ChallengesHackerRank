@@ -11,7 +11,7 @@ package exercises_kit.warm_up.easy
  * s = "abcac
  * n = 10
  *
- * The substring we consider is abcacabcac, the first 10 characters of
+ * The substring we consider is abcac_abcac, the first 10 characters of
  * the infinite string. There are 4 occurrences of a in the substring.
  */
 

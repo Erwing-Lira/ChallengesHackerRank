@@ -25,7 +25,7 @@ fun birthday(s: Array<Int>, d: Int, m: Int): Int {
     // Write your code here
     var numOfPairs = 0
     for (index in 0..s.size - m) {
-        if (s.sliceArray(index..<index + m).sum() == d) {
+        if (s.sliceArray(index..< index + m).sum() == d) {
             numOfPairs++
         }
     }

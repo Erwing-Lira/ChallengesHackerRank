@@ -87,6 +87,7 @@ fun addTwoNumbersTwo(l1: ListNode?, l2: ListNode?): ListNode? {
     return resNode
 }
 
+// NOT THE BEST
 fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     val l1Number = getNumber(l1)
     val l2Number = getNumber(l2)

@@ -11,18 +11,18 @@ package excersises_week_preparation.problem_solving.dataStructures.implementatio
  * k = 5
  *
  * Three pairs meet the criteria:
- *  i<j  ->         ar[i] + ar[j]
- * [0,3] -> [1,4] -> 1 + 4 = 5
- * [1,2] -> [2,3] -> 2 + 3 = 5
- * [3,5] -> [4, 6] -> 4 + 6 = 10
+ *  i<j  -> ar[i] + ar[j]
+ * [0,3] ->     [1,4]     -> 1 + 4 = 5
+ * [1,2] ->     [2,3]     -> 2 + 3 = 5
+ * [3,5] ->     [4,6]     -> 4 + 6 = 10
  */
 
-fun divisibleSumPairs(n: Int, k: Int, ar: Array<Int>): Int {
+fun divisibleSumPairs(k: Int, ar: Array<Int>): Int {
     // Write your code here
     var pairs = 0
 
     for (i in ar.indices) {
-        for (j in i + 1 until n) {
+        for (j in i + 1 until ar.size) {
             if ((ar[i] + ar[j]) % k == 0) {
                 pairs++
             }
@@ -32,12 +32,12 @@ fun divisibleSumPairs(n: Int, k: Int, ar: Array<Int>): Int {
 }
 
 fun main(args: Array<String>) {
-    val n = 6
+    val n = 6 // size
     val k = 3
 
     val ar = arrayOf(1,3,2,6,1,2)
 
-    val result = divisibleSumPairs(n, k, ar)
+    val result = divisibleSumPairs(k, ar)
 
     println(result)
 }

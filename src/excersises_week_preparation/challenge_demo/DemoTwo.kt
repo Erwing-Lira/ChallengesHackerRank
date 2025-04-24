@@ -1,5 +1,10 @@
 package excersises_week_preparation.challenge_demo
 
+/**
+ * Buscar cuantos grupos se puede formar, recordar que en a matriz donde
+ * la fila y la columna es la misma, se auto regalo un disco en otro caso
+ * le regalo un disco a la otra persona
+ */
 fun countGroups(related: Array<String>): Int {
     val relatedSize = related.size
     val visited = BooleanArray(relatedSize) { false }

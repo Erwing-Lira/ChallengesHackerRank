@@ -31,7 +31,7 @@ package excersises_week_preparation.problem_solving.dataStructures.warmup.easy
  */
 
 fun compareTriplets(a: Array<Int>, b: Array<Int>): Array<Int> {
-    val arrayRes = Array<Int>(2) { 0 }
+    val arrayRes = Array(2) { 0 }
     for (index in a.indices) {
         when {
             a[index] > b[index] -> arrayRes[0]++

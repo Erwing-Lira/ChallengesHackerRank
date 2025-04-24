@@ -2,6 +2,33 @@ package excersises_week_preparation.leetcode
 
 fun main() {
     println(twoSum(intArrayOf(1,3,4,5,7), 10).joinToString(" "))
+    println(twoSumTwo(intArrayOf(1,3,4,5,7), 10).joinToString(" "))
+}
+
+fun twoSumTwo(nums: IntArray, target: Int): IntArray {
+    var left = 0
+    var right = nums.size - 1
+
+    while (left <= right) {
+        val sum = nums[left] + nums[right]
+
+        when {
+            sum == target -> {
+                return intArrayOf(
+                    left,
+                    right
+                )
+            }
+            sum > target -> {
+                right--
+            }
+            else -> {
+                left++
+            }
+        }
+    }
+
+    return intArrayOf()
 }
 
 fun twoSum(nums: IntArray, target: Int): IntArray {

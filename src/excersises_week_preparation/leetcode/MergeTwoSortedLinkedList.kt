@@ -31,6 +31,7 @@ fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
 
     var l1Aux = list1
     var l2Aux = list2
+
     while (l1Aux != null || l2Aux != null) {
         val num1 = l1Aux?.`val` ?: Int.MAX_VALUE
         val num2 = l2Aux?.`val` ?: Int.MAX_VALUE
